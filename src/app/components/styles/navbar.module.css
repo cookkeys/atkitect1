@@ -1,0 +1,122 @@
+@media screen and (min-width: 900px){
+    .outer_div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 17vh;
+        /* margin: 0 30px; */
+        padding: 0 30px;
+        
+    }
+    
+    .inner_div_1 p{
+        font-size: 25px;
+
+        font-weight:600 ;
+    }
+    .inner_div_2{
+        background-color: black;
+        width: 30%;
+        border-radius: 50px;
+        color: white;
+    }
+    
+    .inner_div_2 ul{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        transition: 300ms ease-in-out;
+    }
+    
+    .inner_div_2 li{
+        list-style: none;
+        margin: 10px 0;
+        padding: 10px 15px;
+        border-radius: 40px;
+        font-size: 13px;
+        font-weight: 520;
+        transition: 300ms ease-in-out;
+        
+    }
+    .inner_div_2 li:hover{
+       background-color: rgb(50, 49, 49);
+    }
+    
+    .inner_div_3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .button1, .button2, .button3{
+        font-size: 22px;
+        margin: 0 0.5rem;
+        color: rgb(0, 0, 0);
+        transition: 300ms ease-out;
+    }
+    
+    .button1:hover{
+        color: rgb(111, 188, 236);
+        transition: 300ms ease-in;
+    }
+    .button2:hover{
+        color: blue;
+        transition: 300ms ease-in;
+    } .button3:hover{
+        color: rgb(236, 84, 236);
+        transition: 300ms ease-in;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 520px){
+    .outer_div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 17vh;
+        margin: 0 30px;
+    }
+    
+    .inner_div_1{
+        font-size: 30px;
+        font-weight: 520;
+        color: rgb(178, 178, 178);
+    }
+    
+    .inner_div_2{
+        background-color: black;
+        width: 30%;
+        border-radius: 10%;
+        color: white;
+    }
+    
+    .inner_div_2 ul{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .inner_div_2 li{
+        list-style: none;
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    .inner_div_3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .button1, .button2, .button3{
+        font-size: 22px;
+        margin: 0 0.5rem;
+        color: rgb(178, 178, 178);
+        transition: 300ms ease-out;
+    }
+    
+    .button1:hover , .button2:hover, .button3:hover{
+        color: black;
+        transition: 300ms ease-in;
+    }
+}
+@media screen and (max-width: 520px){}
+
+

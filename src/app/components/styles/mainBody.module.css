@@ -1,0 +1,131 @@
+.outer_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.inner_div_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 60px;
+    width: 100vw;
+    border-radius: 40px;
+
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6, .icon7{
+    margin : 50px 50px;
+    font-size: 40px
+}
+
+.inner_div_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.box_2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.box_3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.box_heading1{
+    font-size: 30px;
+    font-weight: 520;
+    margin: 7px 0;
+}
+
+.box_text1{
+    font-weight: 660;
+    font-size: 18px;
+    margin: 7px 0;
+}
+
+.box_text2{
+    margin: 7px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+
+.inner_div_3 p{
+    font-weight: 550;
+    margin: 30px;
+}
+
+.inner_div_4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.inner_div_4_1{
+    width: 45vw;
+}
+
+.box_heading2{
+    font-size: 30px;
+    font-weight: 450;
+    margin: 12px 0;
+}
+
+.box_text3{
+    font-size: 17px;
+    font-weight: 450;
+    margin: 12px 0;
+}
+
+.img_1{
+    object-fit: cover;
+    width: 90%;
+    border-radius: 15px;
+    margin: 37px 0;
+    height: 500px;
+}
+
+.inner_div_4_2{
+    width: 45vw;
+}
+
+.img_2{
+    object-fit: cover;
+    width: 90%;
+    border-radius: 15px;
+    margin: 37px 0;
+    height: 500px;
+}
