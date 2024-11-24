@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className={styles.outer_div}>
       <div className={styles.inner_div_1}>
-        <p>LOGO</p>
+        <p>LOGO (demo site for testing)</p>
       </div>
 
       <div className={styles.inner_div_2}>
